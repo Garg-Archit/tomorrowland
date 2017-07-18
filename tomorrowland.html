@@ -10,9 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
- <nav class="topbar">
+ <nav class="navbar">
   <div class="container-fluid">
-   <ul class="nav navbar-nav">
+   <ul class="navbar_menu>
     <li class="topbar__tml-icon" ><a href="https://www.tomorrowland.com/global/">Tomorrowland.com</a></li>
     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Tomorrowland<span class="caret"</span></a>
      <ul>
@@ -27,11 +27,29 @@
     <li class="divider"><a href="http://365.tomorrowland.com">365</a></li>
     <li class="divider"><a href="https://store.tomorrowland.com/">Store</a></li>
     <li class="divider"><a href="https://peopleoftomorrow.com">People of Tomorrow</a></li>
+   </ul>
+   <ul class="navbar_social">    
     <li class="facebook"><a href="https://www.facebook.com/tomorrowland" target="_blank">Facebook</a></li>
     <li class="instagram"><a href="https://www.instagram.com/tomorrowland/" target="_blank">Instagram</a></li>
     <li class="twitter"><a href="https://twitter.com/tomorrowland" target="_blank">Twitter</a></li>
    </ul>
+   <ul class="navbar_mobile-menu">
+    <li><a href="https://www.tomorrowland.com/belgium"><span>Festival</span></a></li>
+    <li><a href="https://www.tomorrowland.com/en/unite"><span>Unite With Tomorrowland</span></a></li>
+    <li><a href="https://www.tastesoftheworld.com"><span>Tastes of the world</span></a></li>
+    <li><a href="http://www.lovetomorrow.com">Love Tomorrow</a></li>
+    <li><a href="http://365.tomorrowland.com"><span>365</span></a></li>
+    <li><a href="https://store.tomorrowland.com"><span>Store</span></a></li>
+    <li><a href="https://peopleoftomorrow.com">People of Tomorrow</a></li>
+  </ul>
   </div>
  </nav>
+ <header class="header">
+
+  <div class="header-image" data-lazy-image="https://www.tomorrowland.com/global/img/hero-background@2x.jpg" style="background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA8Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gMTAwCv/bAEMAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/bAEMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoAFAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AJfDH/BTH9pbR/Ew0271LRtS8U2HxZ1q1+IHhS1GkeLrSbSPBen6TFqel6GZNLj8P+HfDV5qtze6fqMOieLv7QvbowXGja3pdrZ317c/vZ4R/wCCpH7Hs/g23vNTsfFNprc9rby3GjJ4GufPs3me0Eqm+S+udNvBaW1zLfTtZXk0xtLK7jNsmpiHTJv5FrhVt5NZlgVYZXeYvJCBHIxSz8QSKWdArMVkVZFyThwHGGANdotvB/Y3jCXyIfNtbzRIraTy08y3iGkwERwPt3Qxgqp2RlVyqnHAx+N8WLH5rh8JWoZtj8tnBYb2sqEqFeWI9pZVZVViaNSmqlR1FOU6VOnapHmjGKfKv6EynhXKsvxlek6FOdLE4uMY06Cr4eFFQqQpL2cZ4nEqHPLmqVoUlSozcuWFKkld/wBG5/4KbfAjVNQ1m6vfBXjm2tjqbJo8Meg6LFcLpQsrJ4zqHk+K9St5Lw3j3pEtvLBE9obX/RkcPJKV/MVpWoX81nE0t9eSt5Nl80lzM7fPp1nK/LOT88skkjf3pHdzlmYkrq+o0KdqcquOnKmowc1jakFNxVOPNyJNRcrczSbV/meysgwc/ftFczuk6NGTV3GyvyK9rpLRbL5f/9k=);"></div>
+
+  <div class="header-logo"></div>
+
+</header>
 </body>
 </html>
